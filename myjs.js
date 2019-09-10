@@ -4,9 +4,10 @@ function sum(arrayNumbers) {
     let temp = 0;
     if(arrayNumbers.length < 1) return "Enter arrays of numbers";
 
-    for (let i = 0; i < arrayNumbers.length; i++){
-        temp += arrayNumbers[i];
-    }
+    // for (let i = 0; i < arrayNumbers.length; i++){
+    //     temp += arrayNumbers[i];
+    // }
+    temp = arrayNumbers.reduce((accum, num) => accum + num);
     return temp;
 }
 function sumTest(expected, result) {
