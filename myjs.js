@@ -1,5 +1,5 @@
 
-//Question 5 sum
+
 function sum(arrayNumbers) {
     let temp = 0;
     if(arrayNumbers.length < 1) return "Enter arrays of numbers";
@@ -17,7 +17,7 @@ function sumTest(expected, result) {
     }
 }
 console.log("Expected output of sum([23, 27]) is 50  " + sumTest(50, sum([23, 27])));
-//Question 5 multiply
+
 function multiply(arrayNumbers2) {
     let temp = 1;
     if(arrayNumbers2.length < 1) return "Enter arrays of numbers";
@@ -37,7 +37,7 @@ function multiplyTest(expected, result) {
     }
 }
 console.log("Expected output of multiply([23, 27]) is 621  " + multiplyTest(621, multiply([23, 27])));
-//Question 6
+
 function reverse2(stringToReverse) {
     let reversedString = "";
     for (let i = stringToReverse.length-1; i >= 0 ; i--){
@@ -55,7 +55,7 @@ function reverse2Test(expected, result) {
 console.log("Expected output of reverse2(\"abebe beso\") is oseb ebeba  " + reverse2Test("oseb ebeba", reverse2("abebe beso")));
 
 
-//Question 8
+
 function filterLongWords(wordsArray, i) {
     let largerWords = [];
     for (let j = 0; j < wordsArray.length; j++){
